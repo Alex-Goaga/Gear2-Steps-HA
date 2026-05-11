@@ -46,7 +46,7 @@ It can also:
 
 This project was made for:
 
-- Samsung Gear 2 / Gear 2 321f
+- Samsung Gear 2 / Gear 2 321f  / SM-R380 / SM-R381
 ```text
 https://www.gsmarena.com/samsung_gear_2-7717.php
 ```
