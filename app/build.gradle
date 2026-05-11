@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'ro.alexp.gear2steps'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'ro.alexp.gear2steps'
+        minSdk 23
+        targetSdk 23
+        versionCode 5
+        versionName '1.3-ui-tools'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
