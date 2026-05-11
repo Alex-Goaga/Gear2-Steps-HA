@@ -63,6 +63,34 @@ I love these guys :
 https://xdaforums.com/t/porting-android-to-gear-2.2992953/
 ```
 
+## Small note about pairing the watch after installing Android Wear 6.0.1
+
+If you are brave enough to follow my little adventure and you also want to bring a Samsung Gear 2 back from the land of forgotten gadgets, there is one small trick that helped me sync the watch correctly after installing the Android Wear 6.0.1 port.
+
+After flashing Android Wear 6.0.1 on the watch, I had better results by installing the Wear OS / Android Wear phone companion app in this order:
+
+1. First install this older version on the phone:
+
+   ```text
+   com.google.android.wearable.app_1.5.0.2835999.gms-745359990_minAPI18(nodpi)
+   ```
+
+2. Open it, pair the watch, and let it sync properly.
+
+3. After the watch is connected and synced, install this newer version over it:
+
+   ```text
+   com.google.android.wearable.app_2.0.0.137106828.gms-760210829_minAPI18(nodpi)
+   ```
+
+4. Check that the watch is still connected.
+
+5. After that, you should be able to update the Wear OS / Android Wear app normally from the Play Store.
+
+Both APK versions can be found on APKMirror. I am not hosting those APKs here, and I am not affiliated with APKMirror, Google, Samsung, or the original Android Wear port. This is just the order that worked for me after a lot of trial, error, cable swapping, mild panic, and the classic “why is this old thing still fighting me?” moment.
+
+As always: use your own judgment, download APKs only from sources you trust. Support Right to Repair.
+
 ---
 
 ## Big warning, because reality exists
