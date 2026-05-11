@@ -47,6 +47,9 @@ It can also:
 This project was made for:
 
 - Samsung Gear 2 / Gear 2 321f
+```text
+[https://xdaforums.com/t/porting-android-to-gear-2.2992953/](https://www.gsmarena.com/samsung_gear_2-7717.php)
+```
 - Android Wear port from XDA
 - Android 6.0.1 / SDK 23
 - ARM / `armeabi-v7a`
